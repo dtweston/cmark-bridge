@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'cmark-bridge', :exclusive => true do
+  pod "cmark-bridge", :path => "../"
+
+  
+end
