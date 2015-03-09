@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/dtweston/cmark-bridge.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/dt_weston'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*', 'Pod/cmark/src', 'Pod/cmark/build/src/*.h'
