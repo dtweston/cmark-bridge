@@ -10,12 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "cmark-bridge"
   s.version          = "0.1.0"
-  s.summary          = "A short description of cmark-bridge."
+  s.summary          = "A tiny pod to make cmark available to Swift."
   s.description      = <<-DESC
-                       An optional longer description of cmark-bridge
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A tiny pod that only provides a bridging header.
                        DESC
   s.homepage         = "https://github.com/dtweston/cmark-bridge"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
