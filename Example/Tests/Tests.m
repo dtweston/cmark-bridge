@@ -6,4 +6,4 @@
 //  Copyright (c) 2014 Dave Weston. All rights reserved.
 //
 
-${TEST_EXAMPLE}
+

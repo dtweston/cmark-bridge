@@ -1,6 +1,6 @@
 # cmark-bridge
 
-[![CI Status](http://img.shields.io/travis/Dave Weston/cmark-bridge.svg?style=flat)](https://travis-ci.org/Dave Weston/cmark-bridge)
+[![CI Status](http://img.shields.io/travis/dtweston/cmark-bridge.svg?style=flat)](https://travis-ci.org/dtweston/cmark-bridge)
 [![Version](https://img.shields.io/cocoapods/v/cmark-bridge.svg?style=flat)](http://cocoadocs.org/docsets/cmark-bridge)
 [![License](https://img.shields.io/cocoapods/l/cmark-bridge.svg?style=flat)](http://cocoadocs.org/docsets/cmark-bridge)
 [![Platform](https://img.shields.io/cocoapods/p/cmark-bridge.svg?style=flat)](http://cocoadocs.org/docsets/cmark-bridge)
@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Dave Weston, dweston@yammer-inc.com
+Dave Weston, dave.weston@binocracy.com
 
 ## License
 
