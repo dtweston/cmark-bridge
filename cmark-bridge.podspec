@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "cmark-bridge"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A tiny pod to make cmark available to Swift."
   s.description      = <<-DESC
                        A tiny pod that only provides a bridging header.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     'cmark-bridge' => ['Pod/Assets/*.png']
   }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
