@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "cmark-bridge"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "A tiny pod to make cmark available to Swift."
   s.description      = <<-DESC
                        A tiny pod that only provides a bridging header.
@@ -24,7 +24,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*', 'Pod/cmark/src', 'Pod/cmark/build/src/*.h'
+  s.source_files = 'Pod/Classes/**/*', 'Pod/cmark/src', 'Pod/cmark/src/*.inc', 'Pod/cmark/build/src/*.h'
+  s.exclude_files = 'Pod/cmark/src/main.c', 'Pod/cmark/src/*.inc'
   s.resource_bundles = {
     'cmark-bridge' => ['Pod/Assets/*.png']
   }

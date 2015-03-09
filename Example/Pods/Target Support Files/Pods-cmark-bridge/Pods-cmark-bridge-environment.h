@@ -10,5 +10,5 @@
 #define COCOAPODS_POD_AVAILABLE_cmark_bridge
 #define COCOAPODS_VERSION_MAJOR_cmark_bridge 0
 #define COCOAPODS_VERSION_MINOR_cmark_bridge 1
-#define COCOAPODS_VERSION_PATCH_cmark_bridge 0
+#define COCOAPODS_VERSION_PATCH_cmark_bridge 3
 
