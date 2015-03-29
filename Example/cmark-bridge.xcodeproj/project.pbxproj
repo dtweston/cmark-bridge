@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		192A10949C62CE7AA2D71B1D /* libPods-cmark-bridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 580E4DF036D62AA6B8BB6DE4 /* libPods-cmark-bridge.a */; };
+		5D6667D895D8A822C02CD939 /* Pods_cmark_bridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E750BE73711D132C9E6DF44 /* Pods_cmark_bridge.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -19,8 +19,8 @@
 		1F7DF5C697A7B09E30FC496A /* cmark-bridge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "cmark-bridge.podspec"; path = "../cmark-bridge.podspec"; sourceTree = "<group>"; };
 		2B7F41FE50D9DD8FBC7B3A76 /* Pods-cmark-bridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cmark-bridge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cmark-bridge/Pods-cmark-bridge.debug.xcconfig"; sourceTree = "<group>"; };
 		3A32B2AC03E02667441F5C8F /* Pods-cmark-bridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cmark-bridge.release.xcconfig"; path = "Pods/Target Support Files/Pods-cmark-bridge/Pods-cmark-bridge.release.xcconfig"; sourceTree = "<group>"; };
+		3E750BE73711D132C9E6DF44 /* Pods_cmark_bridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cmark_bridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4811D9714A9AD847E02C98C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		580E4DF036D62AA6B8BB6DE4 /* libPods-cmark-bridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cmark-bridge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* cmark-bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cmark-bridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,7 +42,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				192A10949C62CE7AA2D71B1D /* libPods-cmark-bridge.a in Frameworks */,
+				5D6667D895D8A822C02CD939 /* Pods_cmark_bridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +76,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				580E4DF036D62AA6B8BB6DE4 /* libPods-cmark-bridge.a */,
+				3E750BE73711D132C9E6DF44 /* Pods_cmark_bridge.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,6 +131,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				8AB4A682E2F25285103C95EF /* Copy Pods Resources */,
+				4DB718B9E6669B6FC0FBFDA8 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,6 +187,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4DB718B9E6669B6FC0FBFDA8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cmark-bridge/Pods-cmark-bridge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		774D9D9E8157FFC8BBB231DF /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
