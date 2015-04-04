@@ -1,0 +1,14 @@
+PODS:
+  - cmark-bridge (0.1.6)
+
+DEPENDENCIES:
+  - cmark-bridge (from `../`)
+
+EXTERNAL SOURCES:
+  cmark-bridge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  cmark-bridge: 9a365b7c311b321717c9b1a46ba62a607c2a6e07
+
+COCOAPODS: 0.36.3
