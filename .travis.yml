@@ -12,7 +12,7 @@ language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
 before_install:
-- sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+- sed -e 's/git@github.com:/git:\/\/github.com\//' -i '' .gitmodules
 - git submodule update --init --recursive
 - gem install cocoapods # Since Travis is not always on latest version
 - pod install --project-directory=Example
