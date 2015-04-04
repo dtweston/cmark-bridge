@@ -2,11 +2,20 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 
+# Handle git submodules yourself
+git:
+    submodules: false
+# Use sed to replace the SSH URL with the public URL, then initialize submodules
+before_install:
+
 language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
 before_install:
+- sed -e 's/git@github.com:/git:\/\/github.com\//' -i '' .gitmodules
+- git submodule update --init --recursive
 - gem install cocoapods # Since Travis is not always on latest version
+- cd Pod/cmark && make && cd ../..
 - pod install --project-directory=Example
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
