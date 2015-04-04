@@ -15,6 +15,7 @@ before_install:
 - sed -e 's/git@github.com:/git:\/\/github.com\//' -i '' .gitmodules
 - git submodule update --init --recursive
 - gem install cocoapods # Since Travis is not always on latest version
+- cd Pod/cmark && make && cd ../..
 - pod install --project-directory=Example
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
