@@ -12,9 +12,9 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		B646ED311ACE6A3F005DD648 /* CmarkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B646ED301ACE6A3F005DD648 /* CmarkTest.swift */; };
 		B646ED321ACE6B39005DD648 /* input.md in Resources */ = {isa = PBXBuildFile; fileRef = B646ED2D1ACE6839005DD648 /* input.md */; };
 		B65249381ACF641C000A872E /* expected.html in Resources */ = {isa = PBXBuildFile; fileRef = B65249371ACF641C000A872E /* expected.html */; };
+		B652493A1ACFBFE5000A872E /* CMBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65249391ACFBFE5000A872E /* CMBTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +34,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		B562F863D75A3B456E0DA600 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B646ED2D1ACE6839005DD648 /* input.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = input.md; sourceTree = "<group>"; };
-		B646ED301ACE6A3F005DD648 /* CmarkTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CmarkTest.swift; sourceTree = "<group>"; };
 		B65249371ACF641C000A872E /* expected.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = expected.html; sourceTree = "<group>"; };
+		B65249391ACFBFE5000A872E /* CMBTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 				B646ED2D1ACE6839005DD648 /* input.md */,
 				B65249371ACF641C000A872E /* expected.html */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
-				B646ED301ACE6A3F005DD648 /* CmarkTest.swift */,
+				B65249391ACFBFE5000A872E /* CMBTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -247,7 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B646ED311ACE6A3F005DD648 /* CmarkTest.swift in Sources */,
+				B652493A1ACFBFE5000A872E /* CMBTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
