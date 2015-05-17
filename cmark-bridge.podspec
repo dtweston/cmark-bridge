@@ -28,9 +28,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/**/*', 'Pod/cmark/src', 'Pod/cmark/build/src/*.h'
   s.exclude_files = 'Pod/cmark/src/main.c'
   s.preserve_paths = 'Pod/cmark/src/*.inc'
-  s.resource_bundles = {
-    'cmark-bridge' => ['Pod/Assets/*.png']
-  }
 
   s.prepare_command = 'cd Pod/cmark && make'
 

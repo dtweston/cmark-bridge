@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D6667D895D8A822C02CD939 /* Pods_cmark_bridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E750BE73711D132C9E6DF44 /* Pods_cmark_bridge.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		01B19AB1EA49B6ECE9E9A58B /* Pods_ios_tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21396B5C299F73836DC51229 /* Pods_ios_tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -18,16 +18,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		075DA944379E4C5413BFF6B3 /* Pods-ios-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-tests/Pods-ios-tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F7DF5C697A7B09E30FC496A /* cmark-bridge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "cmark-bridge.podspec"; path = "../cmark-bridge.podspec"; sourceTree = "<group>"; };
-		2B7F41FE50D9DD8FBC7B3A76 /* Pods-cmark-bridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cmark-bridge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cmark-bridge/Pods-cmark-bridge.debug.xcconfig"; sourceTree = "<group>"; };
-		3A32B2AC03E02667441F5C8F /* Pods-cmark-bridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cmark-bridge.release.xcconfig"; path = "Pods/Target Support Files/Pods-cmark-bridge/Pods-cmark-bridge.release.xcconfig"; sourceTree = "<group>"; };
-		3E750BE73711D132C9E6DF44 /* Pods_cmark_bridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cmark_bridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21396B5C299F73836DC51229 /* Pods_ios_tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4811D9714A9AD847E02C98C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		580CB18F9754662BA4CCBD4C /* Pods-ios-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-tests/Pods-ios-tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* cmark-bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cmark-bridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F5AE195388D20070C39A /* cmark-bridge.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cmark-bridge.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* ios-tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5D6667D895D8A822C02CD939 /* Pods_cmark_bridge.framework in Frameworks */,
+				01B19AB1EA49B6ECE9E9A58B /* Pods_ios_tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F5B5195388D20070C39A /* Tests */,
+				6003F5B5195388D20070C39A /* ios-tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				F3D58BD548940E5A79A418D4 /* Pods */,
@@ -68,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* cmark-bridge.app */,
-				6003F5AE195388D20070C39A /* cmark-bridge.xctest */,
+				6003F5AE195388D20070C39A /* ios-tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,12 +80,12 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3E750BE73711D132C9E6DF44 /* Pods_cmark_bridge.framework */,
+				21396B5C299F73836DC51229 /* Pods_ios_tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F5B5195388D20070C39A /* Tests */ = {
+		6003F5B5195388D20070C39A /* ios-tests */ = {
 			isa = PBXGroup;
 			children = (
 				B646ED2D1ACE6839005DD648 /* input.md */,
@@ -93,7 +93,7 @@
 				6003F5B6195388D20070C39A /* Supporting Files */,
 				B65249391ACFBFE5000A872E /* CMBTests.m */,
 			);
-			path = Tests;
+			path = "ios-tests";
 			sourceTree = "<group>";
 		};
 		6003F5B6195388D20070C39A /* Supporting Files */ = {
@@ -119,8 +119,8 @@
 		F3D58BD548940E5A79A418D4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2B7F41FE50D9DD8FBC7B3A76 /* Pods-cmark-bridge.debug.xcconfig */,
-				3A32B2AC03E02667441F5C8F /* Pods-cmark-bridge.release.xcconfig */,
+				075DA944379E4C5413BFF6B3 /* Pods-ios-tests.debug.xcconfig */,
+				580CB18F9754662BA4CCBD4C /* Pods-ios-tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F5AD195388D20070C39A /* cmark-bridge */ = {
+		6003F5AD195388D20070C39A /* ios-tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "cmark-bridge" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ios-tests" */;
 			buildPhases = (
 				774D9D9E8157FFC8BBB231DF /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
@@ -143,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = "cmark-bridge";
+			name = "ios-tests";
 			productName = "cmark-bridgeTests";
-			productReference = 6003F5AE195388D20070C39A /* cmark-bridge.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* ios-tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -157,11 +157,6 @@
 				CLASSPREFIX = CMB;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Dave Weston";
-				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
-					};
-				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "cmark-bridge" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -176,7 +171,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F5AD195388D20070C39A /* cmark-bridge */,
+				6003F5AD195388D20070C39A /* ios-tests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,7 +202,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cmark-bridge/Pods-cmark-bridge-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-tests/Pods-ios-tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		774D9D9E8157FFC8BBB231DF /* Check Pods Manifest.lock */ = {
@@ -237,7 +232,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cmark-bridge/Pods-cmark-bridge-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-tests/Pods-ios-tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -339,7 +334,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B7F41FE50D9DD8FBC7B3A76 /* Pods-cmark-bridge.debug.xcconfig */;
+			baseConfigurationReference = 075DA944379E4C5413BFF6B3 /* Pods-ios-tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -349,25 +344,24 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREFIX_HEADER = "ios-tests/Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				INFOPLIST_FILE = "ios-tests/Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A32B2AC03E02667441F5C8F /* Pods-cmark-bridge.release.xcconfig */;
+			baseConfigurationReference = 580CB18F9754662BA4CCBD4C /* Pods-ios-tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -400,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "cmark-bridge" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ios-tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,

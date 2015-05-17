@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  cmark-bridge: 021cbbb1a9be4cc199333fdfe886f4ba8698539c
+  cmark-bridge: a42007e17c3c5ee34dbbc2b114ec412d3ddbfdf2
 
 COCOAPODS: 0.37.1

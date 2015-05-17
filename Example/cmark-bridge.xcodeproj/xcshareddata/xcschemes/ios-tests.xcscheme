@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "cmark-bridge.xctest"
-               BlueprintName = "cmark-bridge"
+               BuildableName = "ios-tests.xctest"
+               BlueprintName = "ios-tests"
                ReferencedContainer = "container:cmark-bridge.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "cmark-bridge.xctest"
-               BlueprintName = "cmark-bridge"
+               BuildableName = "ios-tests.xctest"
+               BlueprintName = "ios-tests"
                ReferencedContainer = "container:cmark-bridge.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F5AD195388D20070C39A"
-            BuildableName = "cmark-bridge.xctest"
-            BlueprintName = "cmark-bridge"
+            BuildableName = "ios-tests.xctest"
+            BlueprintName = "ios-tests"
             ReferencedContainer = "container:cmark-bridge.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,8 +63,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F5AD195388D20070C39A"
-            BuildableName = "cmark-bridge.xctest"
-            BlueprintName = "cmark-bridge"
+            BuildableName = "ios-tests.xctest"
+            BlueprintName = "ios-tests"
             ReferencedContainer = "container:cmark-bridge.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -82,8 +82,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F5AD195388D20070C39A"
-            BuildableName = "cmark-bridge.xctest"
-            BlueprintName = "cmark-bridge"
+            BuildableName = "ios-tests.xctest"
+            BlueprintName = "ios-tests"
             ReferencedContainer = "container:cmark-bridge.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

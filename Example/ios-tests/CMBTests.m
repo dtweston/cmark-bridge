@@ -50,7 +50,10 @@
         NSString *actualHtml = [NSString stringWithCString:html encoding:NSUTF8StringEncoding];
         
         XCTAssertEqualObjects(expectedHtml, actualHtml, @"HTML should match");
+        return;
     }
+    
+    XCTFail(@"Test did not run");
 }
 
 @end
