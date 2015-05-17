@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "cmark-bridge"
-  s.version          = "0.2.3"
+  s.version          = "0.2.4"
   s.summary          = "A tiny pod to make cmark available to Swift."
   s.description      = <<-DESC
                        A tiny pod that only provides a bridging header.
