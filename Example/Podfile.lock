@@ -1,5 +1,5 @@
 PODS:
-  - cmark-bridge (0.2.2)
+  - cmark-bridge (0.2.3)
 
 DEPENDENCIES:
   - cmark-bridge (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  cmark-bridge: a42007e17c3c5ee34dbbc2b114ec412d3ddbfdf2
+  cmark-bridge: 000b1a09e57a149fe66a3b0cda2b9ac6d0a74245
 
 COCOAPODS: 0.37.1
