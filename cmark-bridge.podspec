@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "cmark-bridge"
-  s.version          = "1.0"
+  s.version          = "1.0.1"
   s.summary          = "A tiny pod to make cmark available to Swift."
   s.description      = <<-DESC
                        A tiny pod that only provides a bridging header.
@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/dtweston/cmark-bridge.git", :tag => s.version.to_s, :submodules => true }
   s.social_media_url = 'https://twitter.com/dt_weston'
 
-  s.ios.deployment_target     = '8.0'
-  s.osx.deployment_target     = '10.10'
+  s.ios.deployment_target     = '7.0'
+  s.osx.deployment_target     = '10.9'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*', 'Pod/cmark/src', 'Pod/cmark/build/src/*.h'
