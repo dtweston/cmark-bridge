@@ -1,3 +1,3 @@
 [submodule "Pod/cmark"]
 	path = Pod/cmark
-	url = git@github.com:dtweston/cmark.git
+	url = https://github.com/dtweston/cmark.git
